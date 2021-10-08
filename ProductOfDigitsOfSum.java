@@ -22,17 +22,8 @@ public class ProductOfDigitsOfSum {
 	}
   public static void main(String[] args){
     System.out.println(sumDigProd(16, 28));
+    System.out.println(sumDigProd(1, 2, 3, 4, 5, 6));
+    System.out.println(sumDigProd(0));
   }
 
 }
-/**
- *     int j = 0;
-		while (j < 5) {
-      System.out.println(n%10);
-      System.out.println((int)n%10);
-      for (int i=0; i<Number.paser )
-      n = (n%10) * (n%100);
-      System.out.println(n);
-      j++;
-    }
- */
