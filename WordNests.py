@@ -4,7 +4,7 @@
   I remove the substring until the string 'nest' it's empety or until there is no more substring in the 'word'
   If 'word' satys empty, then the word nest is  valid, else the word nest is not valid.
 '''
-
+#Tests
 def valid_word_nest(word, nest):
   while nest.count(word) == 1: # I need to iterat while there is the substring 'word' in 'nest'
 	  nest = nest.replace(word, '') # then I remove the substring 'word' in 'nest' using the method replace
