@@ -1,13 +1,14 @@
 # Word Nests (Part 2)
 # Link: https://edabit.com/challenge/ZwmfET5azpvBTWoQT
-def valid_word_nest(word, nest):
-    ''' Basically I should test if there is the substring 'word' in the string 'nest', then
+''' Basically I should test if there is the substring 'word' in the string 'nest', then
   I remove the substring until the string 'nest' it's empety or until there is no more substring in the 'word'
   If 'word' satys empty, then the word nest is  valid, else the word nest is not valid.
-  '''
+'''
+
+def valid_word_nest(word, nest):
   while nest.count(word) == 1: # I need to iterat while there is the substring 'word' in 'nest'
-		nest = nest.replace(word, '') # then I remove the substring 'word' in 'nest' using the method replace 
-	return nest==''
+	  nest = nest.replace(word, '') # then I remove the substring 'word' in 'nest' using the method replace
+  return nest==''
 
 
 print(valid_word_nest("deep", "deep"))
