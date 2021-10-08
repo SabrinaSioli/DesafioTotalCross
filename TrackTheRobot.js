@@ -12,6 +12,7 @@ function trackRobot(...steps) {
   return pos
 }
 
+//tests
 console.log(trackRobot(20, 30, 10, 40))
 console.log(trackRobot())
 console.log(trackRobot(-10, 20, 10))
